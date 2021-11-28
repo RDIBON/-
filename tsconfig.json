@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "noImplicitAny": true,
+        "module": "commonjs",
+        "target": "es5",
+        "allowJs": true,
+        "baseUrl": ".",
+        "paths": {
+            "@App/*": [
+                "src/*"
+            ],
+            "@Test/*": [
+                "tests/*"
+            ]
+        }
+    },
+    "include": [
+        "./src/*.ts",
+        "./src/**/*.ts",
+        "./tests/*.test.ts"
+    ]
+}
